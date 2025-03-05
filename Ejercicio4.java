@@ -1,3 +1,14 @@
+/*
+ * Este codigo tiene la funcionalidad del tipico juego de piedra papel o tijera donde se contemplan las siguientes opciones
+ * si ambos jugadores coinciden en la misma opcion ya sea piedra papel o tijera, el codigo al ejecutarlo dira que es Empate
+ * en los siguientes contextos se describiria en cual de las opciones seria el ganador
+ * el papel le gana a la piedra
+ * la piedra de la gana a las tijeras
+ * las tijeras le ganan al papel
+ * en estos casos el codigo ejecuta que jugador gano dependiendo de que opciones diferentes hayan elegido
+ */
+
+
 
 //se probo en eclipse y el package com.generation; funciona al no estar comentado
 //se probo en visual studio code y al comentar el package permite correrlo en la terminal y tambien funciona
@@ -34,7 +45,7 @@ public class Ejercicio4 { //se corrigio de Codigo 4 a Ejercicio4
 	            g = 1;
 	          } // se agrego la llave del bloque del codigo
 	          break; //se agrego el break
-	        case "tijera":
+	        case "tijeras": //se le agrero la s para que dijera tijeras como el resto del codigo
 	          if (j2.equals("papel")) {
 	            g = 1;
 	          }
