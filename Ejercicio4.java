@@ -1,10 +1,13 @@
-//package com.generation; 
+
 //se probo en eclipse y el package com.generation; funciona al no estar comentado
 //se probo en visual studio code y al comentar el package permite correrlo en la terminal y tambien funciona
 
+
+//package com.generation; 
+
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio4 { //se corrigio de Codigo 4 a Ejercicio4
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
